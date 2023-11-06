@@ -1,11 +1,16 @@
 # Beyond Myopia: Learning from Positive and Unlabeled Data through Holistic Predictive Trends [NeurIPS 2023]
 ## Method
+## Negative trend
 <p align="center">
   <img src="pics/negative_trend_00.png" width="700">
 </p>
-With this intuition, our framework is like this:
+## Positive trend
 <p align="center">
   <img src="pics/positive_trend_00.png" width="700">
+</p>
+## Trend Statistics
+<p align="center">
+  <img src="pics/trend_statistic_00.png" width="1200">
 </p>
 ## Running
 ```
