@@ -15,8 +15,10 @@ We demonstrate the effectiveness of the proposed resampling strategy. It is also
 <p align="center">
   <img src="pics/trend_statistic_00.png" width="1200">
 </p>
+
 ### Note
 The provided code is much implemented on the simplified version of TS score, as it's a bit faster and achieves similar results.
+
 ### Running
 ```
 sh ./run.sh
