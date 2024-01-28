@@ -110,8 +110,8 @@ def train(args, logger, best_acc, labeled_trainloader, unlabeled_trainloader, te
             del logits1
             Lx1 = F.cross_entropy(logits1_x_w, targets_x, reduction='mean')
             # print(torch.softmax(logits1_x_w.detach() / args.T, dim=-1), targets_x)
-            # Lu1 = loss_ft(args, logits1_u, logits1_u_s, targets_u, targets_p, epoch=epoch)
-            Lu1 = F.cross_entropy(logits1_u, targets_t, reduction='mean')
+            Lu1 = loss_ft(args, logits1_u, logits1_u_s, targets_u, targets_p, epoch=epoch)
+            # Lu1 = F.cross_entropy(logits1_u, targets_t, reduction='mean')
             '''
              # loss function:
             '''
